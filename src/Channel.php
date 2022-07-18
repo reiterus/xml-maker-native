@@ -76,6 +76,7 @@ class Channel extends AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * Get channel node
      *
      * @param DOMDocument $dom
@@ -102,6 +103,7 @@ class Channel extends AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @return string
      */
     public function getChannelName(): string
@@ -110,6 +112,7 @@ class Channel extends AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @param string $channelName
      * @return $this
      */
@@ -120,6 +123,7 @@ class Channel extends AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @return array
      */
     public function getChannelProperties(): array
@@ -128,6 +132,7 @@ class Channel extends AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @param array $channelProperties
      * @return $this
      */

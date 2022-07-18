@@ -133,6 +133,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @return string
      */
     public function getRootName(): string
@@ -141,6 +142,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @param string $rootName
      * @return $this
      */
@@ -151,6 +153,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @return string
      */
     public function getItemName(): string
@@ -159,6 +162,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @param string $itemName
      * @return $this
      */
@@ -169,6 +173,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @return array
      */
     public function getRootAttributes(): array
@@ -177,6 +182,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @param array $rootAttributes
      * @return $this
      */
@@ -187,6 +193,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @return array[]
      */
     public function getDocItems(): array
@@ -195,6 +202,7 @@ abstract class AbstractMaker
     }
 
     /**
+     * @codeCoverageIgnore
      * @param array $docItems
      * @return $this
      */
